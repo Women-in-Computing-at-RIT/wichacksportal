@@ -255,7 +255,7 @@ export const hackPortalConfig: HackPortalConfig = {
           },
           {
             //Heard from question
-            question: 'Where did you hear about HackPortal?',
+            question: 'Where did you hear about WiCHacks?',
             required: true,
             id: 'heardFrom',
             name: 'heardFrom',
@@ -363,6 +363,16 @@ export const hackPortalConfig: HackPortalConfig = {
       {
         textAreaQuestions: [
           {
+            //Why do you want to attend question
+            question:
+              'In 2 or 3 sentences, please tell us how your attendence supports the mission of WiCHacks.',
+            id: 'supportmission',
+            name: 'supportmission',
+            required: true,
+            initialValue: '',
+            placeholder: 'Write your explaination here.',
+          },
+          {
             //Accomodations question
             question: 'Anything else we can do to better accommodate you at our hackathon?',
             id: 'accomodations',
@@ -405,38 +415,38 @@ export const hackPortalConfig: HackPortalConfig = {
         ],
       },
       {
-        checkboxQuestions: [
-          {
-            //Companies question
-            question: 'Companies to send my resume to:',
-            required: false,
-            id: 'companies',
-            name: 'companies',
-            initialValue: [],
-            options: [
-              {
-                title: 'State Farm',
-                value: 'State Farm',
-              },
-              {
-                title: 'American Airlines',
-                value: 'American Airlines',
-              },
-              {
-                title: 'Capital One',
-                value: 'Capital One',
-              },
-              {
-                title: 'Ebay',
-                value: 'Ebay',
-              },
-              {
-                title: 'Facebook',
-                value: 'Facebook',
-              },
-            ],
-          },
-        ],
+        // checkboxQuestions: [
+        //   {
+        //     //Companies question
+        //     question: 'Companies to send my resume to:',
+        //     required: false,
+        //     id: 'companies',
+        //     name: 'companies',
+        //     initialValue: [],
+        //     options: [
+        //       {
+        //         title: 'State Farm',
+        //         value: 'State Farm',
+        //       },
+        //       {
+        //         title: 'American Airlines',
+        //         value: 'American Airlines',
+        //       },
+        //       {
+        //         title: 'Capital One',
+        //         value: 'Capital One',
+        //       },
+        //       {
+        //         title: 'Ebay',
+        //         value: 'Ebay',
+        //       },
+        //       {
+        //         title: 'Facebook',
+        //         value: 'Facebook',
+        //       },
+        //     ],
+        //   },
+        // ],
       },
     ],
   },
