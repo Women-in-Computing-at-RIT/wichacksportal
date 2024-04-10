@@ -10,14 +10,13 @@ export default function HomeFooter() {
         <div className="text-base md:text-lg">
           {' '}
           {/* !change */}
-          Checkout HackUTD&apos;s{' '}
           <a
-            href="https://acmutd.co/"
+            href="https://wic.rit.edu"
             rel="noopener noreferrer"
             target="_blank"
             className="font-black hover:underline"
           >
-            Organizer website
+            Women in Computing @ RIT
           </a>
         </div>
         <div className="text-[0.6rem] md:text-sm">
@@ -30,7 +29,7 @@ export default function HomeFooter() {
         <div className="flex flex-row justify-center items-center space-x-6">
           {/* !change */}
           <a
-            href="mailto:email@organization.com"
+            href="mailto:wic@rit.edu"
             rel="noopener noreferrer"
             target="_blank"
             className="hover:underline md:mr-8"
@@ -49,19 +48,19 @@ export default function HomeFooter() {
         </div>
         {/* Social icons */} {/* !change */}
         <div className="space-x-8 > * + *">
-          <a href="https://twitter.com/hackutd" rel="noopener noreferrer" target="_blank">
+          {/* <a href="https://twitter.com/hackutd" rel="noopener noreferrer" target="_blank">
             <TwitterIcon className="footerIcon" />
-          </a>
+          </a> */}
           <a
-            href="https://www.instagram.com/hackutd/?hl=en"
+            href="https://www.instagram.com/wichacks/?hl=en"
             rel="noopener noreferrer"
             target="_blank"
           >
             <InstagramIcon className="footerIcon" />
           </a>
-          <a href="https://www.facebook.com/hackutd/" rel="noopener noreferrer" target="_blank">
+          {/* <a href="https://www.facebook.com/hackutd/" rel="noopener noreferrer" target="_blank">
             <FacebookIcon className="footerIcon" />
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

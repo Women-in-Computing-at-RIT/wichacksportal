@@ -24,14 +24,14 @@ export default function HomeSponsors(props: { sponsorCard: Sponsor[] }) {
           <h2 className="my-2 text-center">
             {' '}
             {/* !change */}
-            If you would like to sponsor HackPortal, please reach out to us at&nbsp;
+            If you would like to sponsor WiCHacks, please reach out to us at&nbsp;
             <a
-              href="mailto:email@organization.com"
+              href="mailto:wic@rit.edu"
               rel="noopener noreferrer"
               target="_blank"
               className="underline"
             >
-              email@organization.com
+              wic@rit.edu
             </a>
           </h2>
         </div>

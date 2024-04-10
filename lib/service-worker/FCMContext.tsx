@@ -69,7 +69,10 @@ function FCMProvider({ children }: React.PropsWithChildren<Record<string, any>>)
         icon: iconUrl,
         tag: new Date().toUTCString(),
       };
-      registration.showNotification('HackPortal Announcement', options);
+      {
+        /* !change */
+      }
+      registration.showNotification('WiCHacks Announcement', options);
     });
   };
 

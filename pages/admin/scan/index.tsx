@@ -252,7 +252,7 @@ export default function Admin() {
   return (
     <div className="relative flex flex-col flex-grow">
       <Head>
-        <title>HackPortal - Admin</title>
+        <title>WiCHacks - Admin</title>
         <meta name="description" content="HackPortal's Admin Page" />
       </Head>
       <section className="p-4">

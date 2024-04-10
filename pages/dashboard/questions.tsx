@@ -154,8 +154,8 @@ export default function QuestionsPage() {
   return (
     <div className="2xl:px-32 md:px-16 px-6 flex flex-col flex-grow">
       <Head>
-        <title>HackPortal - Questions</title> {/* !change */}
-        <meta name="description" content="HackPortal's Quesiton and Answer Page " /> {/* !change */}
+        <title>WiCHacks - Questions</title> {/* !change */}
+        <meta name="description" content="WiCHacks' Quesiton and Answer Page " /> {/* !change */}
       </Head>
       <DashboardHeader />
       <ErrorList
