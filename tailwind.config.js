@@ -1,3 +1,5 @@
+// changing these colors to fit wichacks theme
+// https://www.canva.com/design/DAF8IDlMsKk/VS3U1WkDmhhFYzWlRwaMzg/edit
 module.exports = {
   mode: 'jit',
   content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
@@ -5,15 +7,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#7B81FF', //purple
-        primaryDark: '#05149C',
-        secondary: '#F2F3FF', //light purple
-        secondaryDark: '#BABFFF',
-        complementary: '#4C4950', //gray
-        complementaryDark: '#252427',
+        primary: '#762e8c', //purple
+        primaryDark: '#4D1F5B',
+        secondary: '#F2ECFD', //light purple
+        secondaryDark: '#8464A1',
+        complementary: '#56237E', // another purple
+        complementaryDark: '#554671',
       },
       fontFamily: {
-        sans: ['Roboto', 'sans-serif'],
+        sans: ['Montserrat', 'sans-serif'],
       },
       width: {
         '1/8': '12.5%',
